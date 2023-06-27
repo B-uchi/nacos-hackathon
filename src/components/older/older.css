@@ -28,7 +28,7 @@
     background-color: var(--primary-background-color);
     transition: .3s ease;
     .older-top, .older-right p{
-        color: white;
+        color: var(--font-color);
     }
 
 }

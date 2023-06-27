@@ -23,7 +23,7 @@ li a{
 #nav-icons:hover,
 button:hover,
 li a:hover{
-    color: white;
+    color: var(--font-color);
     cursor: pointer;
 }
 li a:hover{
@@ -47,7 +47,7 @@ button{
 }
 #sign-up-btn{
     border-radius: 0;
-    border: 3px white solid;
+    border: 3px var(--font-color) solid;
 }
 
 @media (max-width:768px){

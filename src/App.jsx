@@ -9,7 +9,7 @@ import Footer from './components/footer/footer'
 
 const App = () => {
   return (
-    <div >
+    <div>
         <Navbar/>
         <HeroSection/>
         <QuickRead/>
