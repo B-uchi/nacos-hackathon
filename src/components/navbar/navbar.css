@@ -1,0 +1,60 @@
+nav, ul, .nav-right{
+    display: flex;
+}
+nav{
+    position: sticky;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    background-color: var(--secondary-background-color);
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 2px 15px;
+}
+ul{
+    list-style: none;
+    gap: 15px;
+}
+li a{
+    text-decoration: none;
+    color: var(--light-color-alt);
+}
+#nav-icons:hover,
+button:hover,
+li a:hover{
+    color: white;
+    cursor: pointer;
+}
+li a:hover{
+    text-decoration: underline;
+}
+h2{
+    color: white;
+}
+.nav-right{
+    gap: 10px;
+    align-items: center;
+    color: var(--light-color-alt);
+}
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    color: var(--light-color-alt);
+    background-color: transparent;
+}
+#sign-up-btn{
+    border-radius: 0;
+    border: 3px white solid;
+}
+
+@media (max-width:768px){
+    .nav-middle{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+}
