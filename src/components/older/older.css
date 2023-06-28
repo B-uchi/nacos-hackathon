@@ -16,7 +16,8 @@
 .older-top{
     display: flex;
     align-items: center;
-    width: 60%;
+    gap: 15px;
+    width: fit-content;
     justify-content: space-between;
 }
 .older-post{
@@ -57,9 +58,12 @@
     }
 }
 
-@media (max-width:768px){
+@media (max-width:912px){
     .older-posts-container{
         grid-template-columns: 1fr;
+    }
+    .older-top{
+        width: fit-content;
     }
 }
 @media (max-width:425px){

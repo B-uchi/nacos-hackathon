@@ -7,9 +7,9 @@ import pic2 from '../../assets/quick/quick2.jpg'
 import pic3 from '../../assets/quick/quick3.jpg'
 
 const QuickRead = () => {
-  const [matches, setMatches] = useState(window.matchMedia("(max-width: 425px)").matches)
+  const [matches, setMatches] = useState(window.matchMedia("(max-width: 820px)").matches)
     
-  useEffect(() => {window.matchMedia("(max-width: 425px)").addEventListener('change', e => setMatches( e.matches ));}, []);
+  useEffect(() => {window.matchMedia("(max-width: 820px)").addEventListener('change', e => setMatches( e.matches ));}, []);
   return (
     <section id='quickread'>
         <h2 id='section-title'>Quick Read</h2>
