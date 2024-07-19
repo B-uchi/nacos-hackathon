@@ -41,7 +41,7 @@ button{
     padding: 5px 10px;
     border: none;
     border-radius: 4px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     color: var(--light-color-alt);
     background-color: transparent;
 }
